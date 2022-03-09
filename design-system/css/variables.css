@@ -1,0 +1,57 @@
+:root {
+  /* --font-sans: "Sans", Helvetica, Arial, sans-serif; */
+
+  --color-label-lm: rgba(112,112,112,1);
+  --color-label-dm: rgba(168,168,168,1);
+  --color-light: rgba(255,255,255,1);
+  --color-dark: rgba(51,51,51,1);
+
+  --color-glass-lm: rgba(255,255,255,.8);
+  --color-glass-dm: rgba(51,51,51,.9);
+
+  --color-shade-dm: rgba(61,61,61,1);
+  --color-shade-lm: rgba(51,51,51,.035);
+
+  --border-dark: 1px solid rgba(0,0,0,0.1);
+  --border-light: 1px solid rgba(255,255,255,0.1);
+
+  --spacing-xxsmall: .125rem;
+  --spacing-xsmall: .25rem;
+  --spacing-small: .5rem;
+  --spacing-base: 1rem;
+  --spacing-medium: 1.5rem;
+  --spacing-large: 2rem;
+  --spacing-xlarge: 3rem;
+  --spacing-xxlarge: 4rem;
+  --spacing-button-lg: .875rem 1.125rem;
+  --spacing-button: .625rem .75rem;
+
+  --size-icon-sm: 1rem;
+  --size-logo: 1.5rem;
+  --size-project-icon: 3rem;
+  --size-avatar: 10rem;
+  --size-btn-icon: 2.5rem;
+
+  --font-size-xsmall: .75rem;
+  --font-size-small: .875rem;
+  --font-size-logo: 1.125rem;
+  --font-size-1: 4.5rem;
+  --font-size-2: 3rem;
+  --font-size-3: 2.125rem;
+  --font-size-4: 2rem;
+  --font-size-5: 1.5rem;
+  --font-size-6: 1.25rem;
+  --font-spacing-small: .0125rem;
+
+  --line-height-1: 5rem;
+  --line-height-2: 3.5rem;
+  --line-height-3: 2.875rem;
+  --line-height-4: 2.325rem;
+  --line-height-base: 1.5;
+
+  --shadow-lm: 0px 20px 40px -20px rgba(0,0,0,0.15);
+  --shadow-dm: 0px 20px 40px -20px rgba(0,0,0,0.25);
+
+  --radius-soft: .25rem;
+  --radius-round: 50vw;
+}

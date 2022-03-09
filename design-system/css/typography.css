@@ -1,0 +1,194 @@
+@font-face {
+  font-family: "Sans";
+  src: url("../fonts/sans/family.woff2") format("woff2"),
+       url("../fonts/sans/family.woff") format("woff");
+}
+
+@media (prefers-color-scheme: light) {
+  h1, h2, h3, h4, h5, h6, p {
+    color: var(--color-dark);
+  }
+
+  p.meta {
+    color: var(--color-label-lm);
+  }
+
+  p.meta a {
+    color: var(--color-label-lm);
+  }
+
+  ul li {
+    color: var(--color-dark);
+  }
+
+  .code {
+    color: #e83e8c;
+    background-color: var(--color-shade-lm);
+    border: var(--border-dark);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: var(--color-dark);
+  }
+
+  h1, h2, h3, h4, h5, h6, p {
+    color: var(--color-light);
+  }
+
+  p.meta {
+    color: var(--color-label-dm);
+  }
+
+  p.meta a {
+    color: var(--color-label-dm);
+  }
+
+  ul li {
+    color: var(--color-light);
+  }
+
+  .code {
+    color: #EE72AC;
+    background-color: var(--color-shade-dm);
+    border: var(--border-light);
+  }
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+h2 {
+  font-size: var(--font-size-1);
+  line-height: var(--line-height-1);
+}
+
+h3 {
+  font-size: var(--font-size-2);
+  line-height: var(--line-height-2);
+  margin: var(--spacing-xxlarge) 0 var(--spacing-base) 0;
+}
+
+h4 {
+  font-size:  var(--font-size-3);
+  line-height: var(--line-height-3);
+  margin: var(--spacing-xxlarge) 0 var(--spacing-small) 0;
+}
+
+h5 {
+  font-size:  var(--font-size-4);
+  line-height: var(--line-height-4);
+  margin: var(--spacing-xlarge) 0 var(--spacing-small) 0;
+}
+
+h6 {
+  font-size:  var(--font-size-5);
+  line-height: var(--line-height-base);
+  margin: var(--spacing-large) 0 var(--spacing-small) 0;
+}
+
+p {
+  max-width: 640px;
+  line-height: var(--line-height-base);
+  margin: var(--spacing-base) 0;
+}
+
+p.meta {
+  margin: var(--spacing-small) 0 var(--spacing-xsmall) 0 !important;
+  font-size: var(--font-size-xsmall);
+}
+
+h1 .emoji, h2 .emoji, h3 .emoji, h4 .emoji, h5 .emoji, h6 .emoji {
+  display: block;
+  margin-bottom: var(--spacing-small);
+}
+
+.center h1, .center h2, .center h3, .center h4, .center h5, .center h6 {
+  text-align: center;
+}
+
+.code {
+  padding: var(--spacing-xxsmall) var(--spacing-xsmall);
+  border-radius: var(--radius-soft);
+  font-family: monospace;
+  width: max-content !important;
+  font-size: var(--font-size-small);
+}
+
+@media only screen and (max-width: 1440px) {
+  h2 {
+    font-size: calc(var(--font-size-1) * .9);
+    line-height: calc(var(--line-height-1) * .9);
+  }
+
+  h3 {
+    font-size: calc(var(--font-size-2) * .9);
+    line-height: calc(var(--line-height-2) * .9);
+    margin: var(--spacing-xxlarge) 0 var(--spacing-base) 0;
+  }
+
+  h4 {
+    font-size: calc(var(--font-size-3) * .9);
+    line-height: calc(var(--line-height-3) * .9);
+    margin: calc(var(--spacing-xxlarge) * .9) 0 var(--spacing-small) 0;
+  }
+
+  h5 {
+    font-size: calc(var(--font-size-4) * .9);
+    line-height: calc(var(--line-height-4) * .9);
+  }
+
+  h6 {
+    font-size: calc(var(--font-size-5) * .9);
+    line-height: calc(var(--line-height-base) * .9);
+  }
+
+}
+
+@media only screen and (max-width: 1024px) {
+}
+
+@media only screen and (max-width: 768px) {
+
+  h2 {
+    font-size: calc(var(--font-size-1) * .8);
+    line-height: calc(var(--line-height-1) * .8);
+  }
+
+  h3 {
+    font-size: calc(var(--font-size-2) * .8);
+    line-height: calc(var(--line-height-2) * .8);
+    margin: var(--spacing-xxlarge) 0 var(--spacing-base) 0;
+  }
+
+  h4 {
+    font-size: calc(var(--font-size-3) * .8);
+    line-height: calc(var(--line-height-3) * .8);
+    margin: calc(var(--spacing-xxlarge) * .8) 0 var(--spacing-small) 0;
+  }
+
+  h5 {
+    font-size: calc(var(--font-size-4) * .8);
+    line-height: calc(var(--line-height-4) * .8);
+  }
+
+  h6 {
+    font-size: calc(var(--font-size-5) * .8);
+    line-height: calc(var(--line-height-base) * .8);
+  }
+
+}
+
+@media only screen and (max-width: 480px) {
+
+  h2 {
+    font-size: calc(var(--font-size-1) * .6);
+    line-height: calc(var(--line-height-1) * .6);
+  }
+}

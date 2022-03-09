@@ -1,0 +1,37 @@
+/* Firefox and Tor Browser Optimizations */
+/* For Tor Browser, use .png images instead of .svg */
+
+@media (prefers-color-scheme: light) {
+  @-moz-document url-prefix() {
+    header, footer, nav ul {
+      background-color: var(--color-light) !important;
+    }
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  @-moz-document url-prefix() {
+    header, footer {
+      background-color: var(--color-shade-dm) !important;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+
+  @media (prefers-color-scheme: light) {
+    @-moz-document url-prefix() {
+      nav ul {
+        background-color: var(--color-light) !important;
+      }
+    }
+  }
+
+  @media (prefers-color-scheme: dark) {
+    @-moz-document url-prefix() {
+      nav ul {
+        background-color: var(--color-shade-dm) !important;
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+@media (prefers-color-scheme: light) {
+  footer {
+    background-color: var(--color-light);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  footer {
+    background-color: var(--color-shade-dm);
+  }
+}
+
+footer {
+  font-size: var(--font-size-xsmall);
+  letter-spacing: var(--font-spacing-small);
+  padding: var(--spacing-base) 0;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer p.donate {
+  display: flex;
+}
+
+footer p img {
+  width: var(--size-icon-sm);
+  height: var(--size-icon-sm);
+  display: inline-flex;
+  margin: 0 var(--spacing-xsmall) 0 0;
+}

@@ -1,0 +1,38 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #59316B;
+  margin: 0;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 2rem;
+}
+
+h1, p {
+  font-family: sans-serif;
+  color: white;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+p {
+  margin-bottom:  2.5rem;
+}
+
+p.emoji {
+  font-size: 2.5rem;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+iframe {
+  background-color: white;
+  border-radius: .5rem;
+  box-shadow: 0 1rem 3rem -.5rem rgba(0,0,0,0.25);
+}

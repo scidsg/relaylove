@@ -1,0 +1,20 @@
+@media (prefers-color-scheme: light) {
+  .badge {
+    border: var(--border-dark);
+    background-color: var(--color-shade-lm);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .badge {
+    border: var(--border-light);
+    background-color: var(--color-shade-dm);
+  }
+}
+
+.badge {
+  padding: var(--spacing-xsmall) var(--spacing-small);
+  font-size: var(--font-size-xsmall);
+  border-radius: var(--radius-round);
+  width: fit-content;
+}

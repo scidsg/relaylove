@@ -1,0 +1,41 @@
+@media (prefers-color-scheme: light) {
+  .card {
+    border: var(--border-dark);
+    background-color: var(--color-light);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .card {
+    border: var(--border-light);
+    background-color: var(--color-shade-dm);
+  }
+}
+
+.card {
+  padding: var(--spacing-xlarge) var(--spacing-large) !important;
+  border-radius: var(--radius-soft);
+  margin: var(--spacing-base);
+}
+
+.card:first-of-type {
+  margin-left: 0;
+}
+
+.card:last-of-type {
+  margin-right: 0;
+}
+
+.center .groupRow:first-of-type .card {
+  margin-top: var(--spacing-large);
+}
+
+@media only screen and (max-width: 768px) {
+  .center .groupRow:first-of-type .card:nth-child(2n) {
+    margin-top: var(--spacing-base);
+  }
+
+  .card {
+    margin: var(--spacing-base) 0;
+  }
+}

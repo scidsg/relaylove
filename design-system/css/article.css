@@ -1,0 +1,25 @@
+@media (prefers-color-scheme: light) {
+
+}
+
+@media (prefers-color-scheme: dark) {
+
+}
+
+article img.small {
+  max-width: 640px;
+}
+
+article img.medium {
+  max-width: 768px;
+}
+
+article img.mobile {
+  max-width: 375px;
+}
+
+@media only screen and (max-width: 768px) {
+  article img {
+    width: 100% !important;
+  }
+}

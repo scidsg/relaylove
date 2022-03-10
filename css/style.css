@@ -4,28 +4,42 @@
 /* Add your custom styles in this file... */
 
 @media (prefers-color-scheme: light) {
+  header, .intro, nav ul {
+    background-color: #7D4698 !important;
+  }
+
+  .btn {
+    background-color: #59316B;
+  }
+
+  iframe {
+    background-color: white;
+  }
 
 }
 
 @media (prefers-color-scheme: dark) {
+  header, .intro, nav ul {
+    background-color: #321C3D !important;
+  }
+
+  .btn {
+    background-color: #59316B;
+  }
+
+  iframe {
+    background-color: #59316B !important;
+  }
 
 }
 
 body {
-  color: white;
-}
-
-header, .intro, nav ul {
-  background-color: #59316B !important;
 }
 
 p, a, h1, h2 {
   color: white !important;
 }
 
-.btn {
-  background-color: #3E224B;
-}
 
 .intro {
   margin-bottom: 0;
@@ -40,7 +54,6 @@ p, a, h1, h2 {
 }
 
 iframe {
-  background-color: white;
   border-radius: .5rem;
   box-shadow: 0 1rem 3rem -.5rem rgba(0,0,0,0.25);
   margin: 0 auto 0 0;

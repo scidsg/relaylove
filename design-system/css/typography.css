@@ -1,7 +1,7 @@
 @font-face {
-  font-family: "Sans";
-  src: url("../fonts/sans/family.woff2") format("woff2"),
-       url("../fonts/sans/family.woff") format("woff");
+  font-family: "Serif";
+  src: url("../fonts/serif/regular.woff2") format("woff2"),
+       url("../fonts/serif/regular.woff") format("woff");
 }
 
 @media (prefers-color-scheme: light) {

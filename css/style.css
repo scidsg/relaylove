@@ -42,6 +42,12 @@ p, a, h1, h2 {
   color: white !important;
 }
 
+h2 {
+  font-family: "Serif";
+  font-weight: inherit;
+  font-size: calc(var(--font-size-1) * 1.0125);
+  line-height: calc(var(--line-height-1) * 1.0125);
+}
 
 .intro {
   margin-bottom: 0;

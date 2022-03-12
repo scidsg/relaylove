@@ -8,8 +8,12 @@
     background-color: #7D4698 !important;
   }
 
+  h2 {
+    color: #92E7FF !important;
+  }
+
   .btn {
-    background-color: #CF9EE6;
+    background-color: #92E7FF;
     color: #59316B !important;
   }
 
@@ -24,9 +28,18 @@
     background-color: #321C3D !important;
   }
 
+  h2 {
+    color: #92E7FF !important;
+  }
+
   .btn {
     background-color: #8C5EA1;
     color: #FFFFFF !important;
+  }
+
+  .btn {
+    background-color: #92E7FF;
+    color: #59316B !important;
   }
 
   iframe {
@@ -38,7 +51,7 @@
 body {
 }
 
-p, a, h1, h2 {
+p, a, h1 {
   color: white !important;
 }
 

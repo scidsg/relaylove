@@ -72,6 +72,10 @@ section {
   margin: 0 0 calc(var(--spacing-xxlarge) * 1.5) 0;
 }
 
+.hidden {
+  display: none !important;
+}
+
 .wrapper {
   max-width: 1280px;
   width: 100%;

@@ -101,13 +101,3 @@
   .banner {
   }
 }
-
-@media only screen and (max-width: 366px) {
-  .banner + header {
-    top: 45.8px !important;
-  }
-
-  .banner.hidden + header {
-    top: 0px !important;
-  }
-}

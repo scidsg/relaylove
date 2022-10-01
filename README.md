@@ -2,6 +2,7 @@
 A Temporary Tor Snowflake Proxy
 
 https://relay.love<br>
+https://glenn-sorrentino.github.io/relaylove/<br>
 mfhwtydqwv3jcjt2wumjmqww2llltfaqdbivu3hcmcnkhj5dvxjxiaid.onion
 
 [Learn more about Snowflake on torproject.org](https://snowflake.torproject.org/).

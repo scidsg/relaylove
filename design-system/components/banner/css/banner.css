@@ -4,7 +4,7 @@
 
   }
 
-  .banner p {
+  .banner p, .banner a {
     color: #59316B !important;
   }
 
@@ -18,7 +18,7 @@
     background-color: #92E7FF;
   }
 
-  .banner p {
+  .banner p, .banner a {
     color: #59316B !important;
   }
 

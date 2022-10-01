@@ -71,7 +71,7 @@
 }
 
 .banner + header ~ div .intro .group {
-  margin-top: var(--spacing-xxlarge);
+  margin-top: var(--spacing-xlarge);
 }
 
 .bannerBtn {
@@ -94,11 +94,11 @@
   }
 
   .banner.hidden + header ~ div .intro iframe {
-    margin-top: 20px !important;
+    margin-top: 0px !important;
   }
 
   .banner.hidden + header ~ div .intro .group {
-    margin-top: 20px !important;
+    margin-top: 0px !important;
   }
 
 }

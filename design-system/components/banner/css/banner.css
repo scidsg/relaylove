@@ -66,8 +66,16 @@
   margin-top: 20px !important;
 }
 
+.banner.hidden + header ~ div .intro h2 {
+  margin-top: 0px !important;
+}
+
 .banner.hidden + header ~ div .intro iframe {
   margin-top: 0px !important;
+}
+
+.banner + header ~ div .intro .group {
+  margin-top: var(--spacing-xxlarge);
 }
 
 .bannerBtn {
@@ -88,6 +96,15 @@
   .banner p {
     margin: 0 auto;
   }
+
+  .banner.hidden + header ~ div .intro iframe {
+    margin-top: 20px !important;
+  }
+
+  .banner.hidden + header ~ div .intro .group {
+    margin-top: 20px !important;
+  }
+
 }
 
 @media only screen and (max-width: 480px) {

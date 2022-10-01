@@ -70,10 +70,6 @@
   margin-top: 0px !important;
 }
 
-.banner + header ~ div .intro .group {
-  margin-top: var(--spacing-xlarge);
-}
-
 .bannerBtn {
   display: flex;
   align-items: center;
@@ -97,10 +93,6 @@
     margin-top: 20px !important;
   }
 
-  .banner.hidden + header ~ div .intro .group {
-    margin-top: 0px !important;
-  }
-
 }
 
 @media only screen and (max-width: 480px) {
@@ -116,7 +108,6 @@
   .banner {
     padding-left: var(--spacing-base) ;
     padding-right: var(--spacing-small) ;
-
   }
 
 }

@@ -111,7 +111,6 @@ iframe {
   .intro .group {
     align-items: flex-start;
     margin-bottom: 0;
-    /* margin-top: var(--spacing-xxlarge); */
     text-align: center;
   }
 

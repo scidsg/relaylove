@@ -62,34 +62,30 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
+  line-height: var(--line-height-heading);
 }
 
 h2 {
   font-size: var(--font-size-1);
-  line-height: var(--line-height-1);
 }
 
 h3 {
   font-size: var(--font-size-2);
-  line-height: var(--line-height-2);
   margin: var(--spacing-xxlarge) 0 var(--spacing-base) 0;
 }
 
 h4 {
   font-size:  var(--font-size-3);
-  line-height: var(--line-height-3);
   margin: var(--spacing-xxlarge) 0 var(--spacing-small) 0;
 }
 
 h5 {
   font-size:  var(--font-size-4);
-  line-height: var(--line-height-4);
   margin: var(--spacing-xlarge) 0 var(--spacing-small) 0;
 }
 
 h6 {
   font-size:  var(--font-size-5);
-  line-height: var(--line-height-base);
   margin: var(--spacing-large) 0 var(--spacing-small) 0;
 }
 
@@ -124,29 +120,24 @@ h1 .emoji, h2 .emoji, h3 .emoji, h4 .emoji, h5 .emoji, h6 .emoji {
 @media only screen and (max-width: 1440px) {
   h2 {
     font-size: calc(var(--font-size-1) * .9);
-    line-height: calc(var(--line-height-1) * .9);
   }
 
   h3 {
     font-size: calc(var(--font-size-2) * .9);
-    line-height: calc(var(--line-height-2) * .9);
     margin: var(--spacing-xxlarge) 0 var(--spacing-base) 0;
   }
 
   h4 {
     font-size: calc(var(--font-size-3) * .9);
-    line-height: calc(var(--line-height-3) * .9);
     margin: calc(var(--spacing-xxlarge) * .9) 0 var(--spacing-small) 0;
   }
 
   h5 {
     font-size: calc(var(--font-size-4) * .9);
-    line-height: calc(var(--line-height-4) * .9);
   }
 
   h6 {
     font-size: calc(var(--font-size-5) * .9);
-    line-height: calc(var(--line-height-base) * .9);
   }
 
 }
@@ -158,29 +149,24 @@ h1 .emoji, h2 .emoji, h3 .emoji, h4 .emoji, h5 .emoji, h6 .emoji {
 
   h2 {
     font-size: calc(var(--font-size-1) * .8);
-    line-height: calc(var(--line-height-1) * .8);
   }
 
   h3 {
     font-size: calc(var(--font-size-2) * .8);
-    line-height: calc(var(--line-height-2) * .8);
     margin: var(--spacing-xxlarge) 0 var(--spacing-base) 0;
   }
 
   h4 {
     font-size: calc(var(--font-size-3) * .8);
-    line-height: calc(var(--line-height-3) * .8);
     margin: calc(var(--spacing-xxlarge) * .8) 0 var(--spacing-small) 0;
   }
 
   h5 {
     font-size: calc(var(--font-size-4) * .8);
-    line-height: calc(var(--line-height-4) * .8);
   }
 
   h6 {
     font-size: calc(var(--font-size-5) * .8);
-    line-height: calc(var(--line-height-base) * .8);
   }
 
 }
@@ -189,6 +175,5 @@ h1 .emoji, h2 .emoji, h3 .emoji, h4 .emoji, h5 .emoji, h6 .emoji {
 
   h2 {
     font-size: calc(var(--font-size-1) * .6);
-    line-height: calc(var(--line-height-1) * .6);
   }
 }

@@ -65,7 +65,6 @@ h2 {
   font-family: "Serif";
   font-weight: inherit;
   font-size: calc(var(--font-size-1) * 1.0125);
-  line-height: calc(var(--line-height-1) * 1.0125);
   margin-bottom: var(--spacing-small);
 }
 
@@ -94,14 +93,12 @@ iframe {
 @media only screen and (max-width: 1024px) {
   h2 {
     font-size: calc(var(--font-size-1) * .8);
-    line-height: calc(var(--line-height-1) * .8);
   }
 }
 
 @media only screen and (max-width: 960px) {
   h2 {
     font-size: calc(var(--font-size-1) * .7);
-    line-height: calc(var(--line-height-1) * .7);
   }
 }
 
@@ -128,7 +125,6 @@ iframe {
 
   h2 {
     font-size: calc(var(--font-size-1) * .6);
-    line-height: calc(var(--line-height-1) * .6);
   }
 
   nav ul {
@@ -151,9 +147,5 @@ iframe {
 
 @media only screen and (max-width: 480px) {
 
-  h2 {
-    font-size: calc(var(--font-size-1) * .5);
-    line-height: calc(var(--line-height-1) * .5);
-  }
 
 }

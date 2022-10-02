@@ -41,7 +41,7 @@
 
 .banner p {
   padding: 0;
-  width: fit-contnet;
+  width: fit-content;
   margin: 0 auto;
   font-size: var(--font-size-small);
 }

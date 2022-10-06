@@ -1,6 +1,6 @@
 # ❄️ Relay Love
 
-## Share the free internet.
+## Share the free internet
 Help people in censored locations safely access the internet by operating a [Snowflake proxy](https://snowflake.torproject.org/).
 If you need to access the internet, [download Tor Browser](https://www.torproject.org/download/). Do not operate a proxy, since that could enable entrance into a monitored network.
 

@@ -1,0 +1,36 @@
+@media (prefers-color-scheme: light) {
+  .intro {
+    background-color: var(--color-light);
+  }
+
+}
+
+@media (prefers-color-scheme: dark) {
+  .intro {
+    background-color: var(--color-shade-dm);
+  }
+}
+
+.intro {
+  height: 100vh;
+  align-items: center;
+}
+
+.intro h2 {
+  width: 80%;
+}
+
+.intro p:last-of-type {
+  margin-bottom: 0;
+}
+
+
+.fade {
+  opacity: 0 !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .intro h2 {
+    width: 100%;
+  }
+}

@@ -108,9 +108,6 @@ nav .btn {
   height: auto;
 }
 
-nav .badge {
-  margin-right: var(--spacing-base);
-}
 
 @media only screen and (max-width: 768px) {
   @media (prefers-color-scheme: light) {
@@ -176,8 +173,4 @@ nav .badge {
     display: flex;
   }
 
-  nav .badge {
-    margin-right: 0;
-    margin-left: var(--spacing-medium);
-  }
 }

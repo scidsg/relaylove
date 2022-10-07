@@ -3,16 +3,12 @@
 
 @import url("reset.css");
 @import url("variables.css");
-@import url("article.css");
 @import url("base.css");
 @import url("buttons.css");
-@import url("animation.css");
 @import url("typography.css");
 @import url("firefox.css");
 @import url("header.css");
 @import url("intro.css");
 @import url("content.css");
 @import url("banner.css");
-@import url("cards.css");
-@import url("footer.css");
-@import url("badge.css");
+@import url("style.css");

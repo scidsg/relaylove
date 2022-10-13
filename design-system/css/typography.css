@@ -61,8 +61,12 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: bold;
   line-height: var(--line-height-heading);
+  font-weight: bold;
+}
+
+h2, h3, h4, h5, h6 {
+  letter-spacing: var(--letter-spacing-serif-heading);
 }
 
 h2 {
@@ -76,7 +80,7 @@ h3 {
 
 h4 {
   font-size:  var(--font-size-3);
-  margin: var(--spacing-xxlarge) 0 var(--spacing-small) 0;
+  margin: var(--spacing-xxlarge) 0 var(--spacing-xxsmall) 0;
 }
 
 h5 {
@@ -91,13 +95,64 @@ h6 {
 
 p {
   max-width: 640px;
-  line-height: var(--line-height-base);
+  line-height: var(--line-height-body);
   margin: var(--spacing-base) 0;
+
+}
+
+li {
+  line-height: var(--line-height-body);
 }
 
 p.meta {
   margin: var(--spacing-small) 0 var(--spacing-xsmall) 0 !important;
-  font-size: var(--font-size-xsmall);
+  font-size: var(--font-size-small);
+}
+
+.highlight {
+  padding: var(--spacing-xsmall);
+  border-radius: var(--radius-soft);
+}
+
+.study p, .study ul {
+  font-size: var(--font-size-study);
+  font-family: 'Serif';
+  line-height: 1.7;
+}
+
+.study p, .study ul {
+  margin-top: var(--spacing-large);
+  margin-bottom: var(--spacing-large);
+}
+
+.study p + p {
+  margin-top: var(--spacing-small);
+}
+
+.study ul {
+  list-style: none;
+}
+
+.study img + p:not( img + p > h3) {
+  margin: var(--spacing-xlarge) auto;
+}
+
+.study h3, .study h4, .study h5, .study h6 {
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-top: calc(var(--spacing-xxlarge) * 1.25);
+  text-align: center;
+}
+
+.study p, .study img, .study ul {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.strong {
+  font-weight: bold;
 }
 
 h1 .emoji, h2 .emoji, h3 .emoji, h4 .emoji, h5 .emoji, h6 .emoji {
@@ -109,6 +164,11 @@ h1 .emoji, h2 .emoji, h3 .emoji, h4 .emoji, h5 .emoji, h6 .emoji {
   text-align: center;
 }
 
+.center p {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .code {
   padding: var(--spacing-xxsmall) var(--spacing-xsmall);
   border-radius: var(--radius-soft);
@@ -117,63 +177,98 @@ h1 .emoji, h2 .emoji, h3 .emoji, h4 .emoji, h5 .emoji, h6 .emoji {
   font-size: var(--font-size-small);
 }
 
-@media only screen and (max-width: 1440px) {
+@media only screen and (max-width: 1280px) {
   h2 {
-    font-size: calc(var(--font-size-1) * .9);
+    font-size: calc(var(--font-size-1) * .95);
   }
+}
+
+@media only screen and (max-width: 1024px) {
+
+  h2 {
+    font-size: calc(var(--font-size-1) * .8);
+  }
+}
+
+@media only screen and (max-width: 1000px) {
 
   h3 {
-    font-size: calc(var(--font-size-2) * .9);
+    font-size: calc(var(--font-size-2) * .85);
     margin: var(--spacing-xxlarge) 0 var(--spacing-base) 0;
   }
 
   h4 {
-    font-size: calc(var(--font-size-3) * .9);
-    margin: calc(var(--spacing-xxlarge) * .9) 0 var(--spacing-small) 0;
+    font-size: calc(var(--font-size-3) * .85);
+    margin: calc(var(--spacing-xxlarge) * .85) 0 var(--spacing-xxsmall) 0;
   }
 
   h5 {
-    font-size: calc(var(--font-size-4) * .9);
+    font-size: calc(var(--font-size-4) * .85);
   }
 
   h6 {
-    font-size: calc(var(--font-size-5) * .9);
+    font-size: calc(var(--font-size-5) * .85);
   }
 
-}
-
-@media only screen and (max-width: 1024px) {
 }
 
 @media only screen and (max-width: 768px) {
 
   h2 {
-    font-size: calc(var(--font-size-1) * .8);
+    font-size: calc(var(--font-size-1) * .75);
   }
 
   h3 {
-    font-size: calc(var(--font-size-2) * .8);
+    font-size: calc(var(--font-size-2) * .75);
     margin: var(--spacing-xxlarge) 0 var(--spacing-base) 0;
   }
 
   h4 {
-    font-size: calc(var(--font-size-3) * .8);
-    margin: calc(var(--spacing-xxlarge) * .8) 0 var(--spacing-small) 0;
+    font-size: calc(var(--font-size-3) * .75);
+    margin: calc(var(--spacing-xxlarge) * .75) 0 var(--spacing-xxsmall) 0;
   }
 
   h5 {
-    font-size: calc(var(--font-size-4) * .8);
+    font-size: calc(var(--font-size-4) * .75);
   }
 
   h6 {
-    font-size: calc(var(--font-size-5) * .8);
+    font-size: calc(var(--font-size-5) * .75);
   }
 
+  p.meta {
+    font-size: var(--font-size-xsmall);
+  }
+
+}
+
+@media only screen and (max-width: 640px) {
+  .study h3, .study h4, .study h5, .study h6 {
+    /* margin-left: 0;
+    margin-right: ; */
+  }
 }
 
 @media only screen and (max-width: 480px) {
 
   h2 {
     font-size: calc(var(--font-size-1) * .6);
+  }
+
+  h3 {
+    font-size: calc(var(--font-size-2) * .7);
+    margin: var(--spacing-xxlarge) 0 var(--spacing-base) 0;
+  }
+
+  h5 {
+    font-size: calc(var(--font-size-4) * .7);
+  }
+
+  h6 {
+    font-size: calc(var(--font-size-5) * .7);
+  }
+
+  .code {
+    width: fit-content !important;
   }
 }

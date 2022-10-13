@@ -2,17 +2,27 @@
   .iconAlt {
     color: var(--color-label-lm);
   }
+
+  .description img.avatar {
+    box-shadow: var(--shadow-lm);
+    border: var(--border-dark-1);
+  }
 }
 
 @media (prefers-color-scheme: dark) {
   .iconAlt {
     color: var(--color-label-dm);
   }
+
+  .description img.avatar {
+    box-shadow: var(--shadow-dm);
+    border: var(--border-light);
+  }
 }
 
 .group {
   display: flex;
-  margin: var(--spacing-large) 0;
+  margin: var(--spacing-xxlarge) 0;
 }
 
 .group .description {
@@ -116,6 +126,11 @@
     padding: 0 var(--spacing-base);
     justify-content: flex-start;
     flex: 1 1 0px;
+    margin: 0;
+}
+
+.study .groupRow .description {
+  margin: 0 var(--spacing-base);
 }
 
 .groupRow .description img ~ .iconAlt {
@@ -133,6 +148,22 @@
   height: auto;
 }
 
+.study .groupRow {
+  margin: var(--spacing-xxlarge) 0;
+}
+
+.study .description h4 {
+  text-align: center;
+  margin-bottom: var(--spacing-small);
+}
+
+.study .description ul {
+  font-size: var(--font-size-base);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+
 @media only screen and (max-width: 1024px) {
   .description h3,
   .description h4,
@@ -140,12 +171,16 @@
   .description h6 {
     width: 80%;
   }
+
+  .group {
+    margin: var(--spacing-xlarge) 0;
+  }
 }
 
 @media only screen and (max-width: 768px) {
   .group {
     flex-direction: column;
-    margin: var(--spacing-medium) 0;
+    margin: var(--spacing-xlarge) 0;
   }
 
   .group .description {
@@ -153,6 +188,15 @@
     margin: var(--spacing-medium) 0;
     width: auto;
   }
+
+  .study .groupRow .description {
+    margin: var(--spacing-small) 0 !important;
+  }
+
+  .study .groupRow {
+    margin: var(--spacing-large) 0 !important;
+  }
+
 
   .group img {
     width: 100%;
@@ -170,7 +214,7 @@
 
   .description {
     padding: 0;
-    margin: var(--spacing-medium) 0;
+    margin: var(--spacing-base) 0;
   }
 
   .description.flip {
@@ -180,10 +224,12 @@
 
   .groupRow {
     flex-direction: column;
+    margin: 0;
   }
 
   .groupRow .description {
     padding: 0;
+    margin: var(--spacing-base) 0;
   }
 
   .description h3,
@@ -202,13 +248,14 @@
       padding: 0;
   }
 
-  .groupRow .description img {
+  /* .groupRow .description img {
     order: 9;
-  }
+  } */
 }
 
 @media only screen and (max-width: 640px) {
   .mobileImageContainer img {
     width: 100%;
   }
+
 }

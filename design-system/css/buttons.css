@@ -54,7 +54,7 @@
 
 .btn {
   padding: var(--spacing-button) !important;
-  border-radius: var(--radius-soft);
+  border-radius: 50vw;
   display: inline-flex !important;
   font-size: var(--font-size-base);
   width: max-content;

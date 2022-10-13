@@ -1,11 +1,11 @@
 @media (prefers-color-scheme: light) {
   .banner {
-    background-color: #92E7FF !important;
-
+    background-color: #019ec3 !important;
+    font-family: "IBM Plex Sans Arabic";
   }
 
   .banner p, .banner a {
-    color: #59316B !important;
+    color: #fff !important;
   }
 
   .bannerBtn {
@@ -15,11 +15,11 @@
 
 @media (prefers-color-scheme: dark) {
   .banner {
-    background-color: #92E7FF;
+    background-color: #019ec3;
   }
 
   .banner p, .banner a {
-    color: #59316B !important;
+    color: #fff !important;
   }
 
   .bannerBtn {

@@ -5,21 +5,21 @@
 
 @media (prefers-color-scheme: light) {
   header, .intro, nav ul {
-    background-color: #7D4698 !important;
+    background-color: #f7f6f5 !important;
   }
 
   h2 {
-    color: #92E7FF !important;
+    color: #019ec3 !important;
   }
 
   .primaryBtn {
-    background-color: #92E7FF !important;
-    color: #59316B !important;
+    background-color: #019ec3 !important;
+    color: #fff !important;
   }
 
   .btn {
-    border: 2px solid #92E7FF;
-    color: #92E7FF;
+    border: 2px solid #019ec3;
+    color: #019ec3;
     background: none;
   }
 
@@ -35,7 +35,7 @@
   }
 
   h2 {
-    color: #92E7FF !important;
+    color: #019ec3 !important;
   }
 
   .btn {
@@ -44,7 +44,7 @@
   }
 
   .primaryBtn {
-    background-color: #92E7FF;
+    background-color: #019ec3;
     color: #59316B !important;
   }
 
@@ -58,11 +58,12 @@ body {
 }
 
 p, a, h1 {
-  color: white !important;
+  color: rgba(46,52,54) !important;
+  font-family: "IBM Plex Sans Arabic";
 }
 
 h2 {
-  font-family: "Serif";
+  font-family: "IBM Plex Sans Arabic";
   font-weight: inherit;
   font-size: calc(var(--font-size-1) * 1.0125);
   margin-bottom: var(--spacing-small);

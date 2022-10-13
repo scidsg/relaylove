@@ -56,7 +56,7 @@
   padding: var(--spacing-button) !important;
   border-radius: var(--radius-soft);
   display: inline-flex !important;
-  font-size: var(--font-size-small);
+  font-size: var(--font-size-base);
   width: max-content;
   text-decoration: none;
   font-weight: bold;

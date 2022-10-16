@@ -90,11 +90,11 @@
   }
 
   .banner + header ~ div .intro h2 {
-    margin-top: 148px !important;
+    /* margin-top: 148px !important; */
   }
 
   .banner.hidden + header ~ div .intro h2 {
-    margin-top: 108px !important;
+    /* margin-top: 108px !important; */
   }
 
   .banner + header ~ div .intro {
@@ -123,15 +123,15 @@
   }
 
   .banner + header ~ div .intro h2 {
-    margin-top: 248px !important;
+    /* margin-top: 248px !important; */
   }
 
   .banner.hidden + header ~ div .intro h2 {
-    margin-top: 208px !important;
+    /* margin-top: 208px !important; */
   }
 
   .banner + header ~ div .intro {
-    padding-bottom: 148px !important;
+    /* padding-bottom: 148px !important; */
   }
 
   .banner.hidden + header ~ div .intro iframe {

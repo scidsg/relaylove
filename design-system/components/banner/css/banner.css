@@ -93,6 +93,10 @@
     margin-top: 20px !important;
   }
 
+  .banner + header ~ div .intro iframe {
+    margin-top: 20px !important;
+  }
+
 }
 
 @media only screen and (max-width: 480px) {

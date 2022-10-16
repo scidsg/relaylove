@@ -4,6 +4,12 @@
        url("../fonts/serif/regular.woff") format("woff");
 }
 
+@font-face {
+  font-family: "Mono";
+  src: url("../fonts/mono/RobotoMono-Regular.woff2") format("woff2"),
+       url("../fonts/mono/RobotoMono-Regular.woff") format("woff");
+}
+
 @media (prefers-color-scheme: light) {
   h1, h2, h3, h4, h5, h6, p {
     color: var(--color-dark);
@@ -102,6 +108,10 @@ p {
 
 li {
   line-height: var(--line-height-body);
+}
+
+.mono {
+  font-family: 'Mono';
 }
 
 p.meta {

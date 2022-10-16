@@ -90,9 +90,7 @@ iframe {
 }
 
 @media only screen and (max-width: 1024px) {
-  h2 {
-    font-size: calc(var(--font-size-1) * .8);
-  }
+
 }
 
 @media only screen and (max-width: 960px) {
@@ -117,16 +115,16 @@ iframe {
     margin-left: 0 !important;
   }
 
+  h2 {
+    font-size: calc(var(--font-size-1) * .8);
+  }
+
   .intro .description {
     width: 100%;
   }
 
   iframe {
     margin: var(--spacing-large) auto 0 0;
-  }
-
-  h2 {
-    font-size: calc(var(--font-size-1) * .6);
   }
 
   nav ul {
@@ -144,16 +142,16 @@ iframe {
 }
 
 @media only screen and (max-width: 640px) {
-
+  h2 {
+    font-size: calc(var(--font-size-1) * .7);
+  }
 }
 
 @media only screen and (max-width: 480px) {
-  .intro {
-    align-items: flex-end;
-  }
+  /* .intro {
+    align-items: flex-start;
+    margin-top: 78px;
+  } */
 
-  .intro .group {
-    margin-bottom: calc(var(--spacing-xxlarge) * 1.5);
-  }
 
 }

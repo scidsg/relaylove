@@ -97,10 +97,6 @@
     /* margin-top: 108px !important; */
   }
 
-  .banner + header ~ div .intro {
-    padding-bottom: 48px !important;
-  }
-
   .banner.hidden + header ~ div .intro iframe {
     margin-top: 20px !important;
   }

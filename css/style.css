@@ -51,7 +51,6 @@
   iframe {
     background-color: #59316B !important;
   }
-
 }
 
 body {
@@ -111,7 +110,11 @@ iframe {
   .intro .group {
     align-items: flex-start;
     margin-bottom: 0;
-    text-align: center;
+    margin-top: 0;
+  }
+
+  .intro p {
+    margin-left: 0 !important;
   }
 
   .intro .description {
@@ -119,7 +122,7 @@ iframe {
   }
 
   iframe {
-    margin: var(--spacing-large) auto 0 auto;
+    margin: var(--spacing-large) auto 0 0;
   }
 
   h2 {
@@ -145,6 +148,12 @@ iframe {
 }
 
 @media only screen and (max-width: 480px) {
+  .intro {
+    align-items: flex-end;
+  }
 
+  .intro .group {
+    margin-bottom: calc(var(--spacing-xxlarge) * 1.5);
+  }
 
 }

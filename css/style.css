@@ -164,7 +164,7 @@ iframe {
   }
 
   .intro {
-    padding-bottom: calc(var(--spacing-xxlarge) * 3);
+    padding-bottom: calc(var(--spacing-xxlarge) * 1.5);
   }
 
 }

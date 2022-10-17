@@ -160,7 +160,7 @@ iframe {
 
 @media only screen and (max-width: 390px) {
   .intro .group {
-    margin-top: calc(var(--spacing-xxlarge) * 2.5);
+    margin-top: calc(var(--spacing-xxlarge) * 3);
   }
 
   .intro {

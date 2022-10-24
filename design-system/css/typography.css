@@ -1,7 +1,64 @@
 @font-face {
-  font-family: "Serif";
-  src: url("../fonts/serif/regular.woff2") format("woff2"),
-       url("../fonts/serif/regular.woff") format("woff");
+  font-family: 'IBM Sans';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: local('IBM Sans'),
+    url(../fonts/sans/IBMPlexSansArabic-Thin.woff2) format('trueType');
+}
+
+@font-face {
+  font-family: 'IBM Sans';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: local('IBM Sans'),
+    url(../fonts/IBMPlexSansArabic-ExtraLight.woff2) format('trueType');
+}
+
+@font-face {
+  font-family: 'IBM Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('IBM Sans'),
+    url(../fonts/sans/IBMPlexSansArabic-Light.woff2) format('trueType');
+}
+
+@font-face {
+  font-family: 'IBM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('IBM Sans'),
+    url(../fonts/sans/IBMPlexSansArabic-Regular.woff2) format('trueType');
+}
+
+@font-face {
+  font-family: 'IBM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('IBM Sans'),
+    url(../fonts/sans/IBMPlexSansArabic-Medium.woff2) format('trueType');
+}
+
+@font-face {
+  font-family: 'IBM Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local('IBM Sans'),
+    url(../fonts/sans/IBMPlexSansArabic-SemiBold.woff2) format('trueType');
+}
+
+@font-face {
+  font-family: 'IBM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('IBM Sans'),
+    url(../fonts/sans/IBMPlexSansArabic-Bold.woff2) format('trueType');
 }
 
 @media (prefers-color-scheme: light) {

@@ -5,7 +5,7 @@
 
 @media (prefers-color-scheme: light) {
   header, .intro, nav ul {
-    background-color: #7D4698 !important;
+    background-color: #f7f6f5 !important;
   }
 
   h2 {
@@ -59,10 +59,11 @@ body {
 
 p, a, h1 {
   color: white !important;
+  font-family: "IBM Sans";
 }
 
 h2 {
-  font-family: "Serif";
+  font-family: "IBM Sans";
   font-weight: inherit;
   font-size: calc(var(--font-size-1) * 1.0125);
   margin-bottom: var(--spacing-small);

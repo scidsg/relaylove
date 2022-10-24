@@ -1,11 +1,11 @@
 @media (prefers-color-scheme: light) {
   .banner {
-    background-color: #1f9ec3 !important;
-
+    background-color: #019ec3 !important;
+    font-family: "IBM Sans";
   }
 
   .banner p, .banner a {
-    color: #FFFFFF !important;
+    color: #fff !important;
   }
 
   .bannerBtn {

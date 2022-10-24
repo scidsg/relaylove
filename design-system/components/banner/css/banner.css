@@ -1,7 +1,7 @@
 @media (prefers-color-scheme: light) {
   .banner {
     background-color: #019ec3 !important;
-    font-family: "IBM Plex Sans Arabic";
+    font-family: "IBM Sans";
   }
 
   .banner p, .banner a {

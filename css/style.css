@@ -58,12 +58,12 @@ body {
 }
 
 p, a, h1 {
-  color: rgba(46,52,54) !important;
-  font-family: "IBM Plex Sans Arabic";
+  color: white !important;
+  font-family: "IBM Sans";
 }
 
 h2 {
-  font-family: "IBM Plex Sans Arabic";
+  font-family: "IBM Sans";
   font-weight: inherit;
   font-size: calc(var(--font-size-1) * 1.0125);
   margin-bottom: var(--spacing-small);

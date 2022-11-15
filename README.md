@@ -1,13 +1,13 @@
 # ❄️ Relay Love
 
-## Share the free internet
-Help people in censored locations safely access the internet by operating a [Snowflake proxy](https://snowflake.torproject.org/).
-If you need to access the internet, [download Tor Browser](https://www.torproject.org/download/). Do not operate a proxy, since that could enable entrance into a monitored network.
+## Temporarily Share Your Bandwidth
+Help people safely access the internet using the Tor network. To share your connection, enable the toggle and keep the tab open. Avoid sharing from censored locations.
+
+![Frame 259](https://user-images.githubusercontent.com/28545431/201795123-8c4d7b29-6226-4edc-8ae3-944a80465382.png)
+
 
 https://relay.love<br>
-[mfhwtydqwv3jcjt2wumjmqww2llltfaqdbivu3hcmcnkhj5dvxjxiaid.onion](http://mfhwtydqwv3jcjt2wumjmqww2llltfaqdbivu3hcmcnkhj5dvxjxiaid.onion)
-
-If the addresses above aren't working try the URL below:<br>
-https://glenn-sorrentino.github.io/relaylove/<br>
+[mfhwtydqwv3jcjt2wumjmqww2llltfaqdbivu3hcmcnkhj5dvxjxiaid.onion](http://mfhwtydqwv3jcjt2wumjmqww2llltfaqdbivu3hcmcnkhj5dvxjxiaid.onion)<br>
+https://glenn-sorrentino.github.io/relaylove/
 
 [Learn more about Snowflake on torproject.org](https://snowflake.torproject.org/).

@@ -85,10 +85,6 @@ iframe {
   margin: 0 auto 0 0;
 }
 
-iframe  #active {
-  display: none !important;
-}
-
 @media only screen and (max-width: 1280px) {
 
 }

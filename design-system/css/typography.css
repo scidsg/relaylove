@@ -1,4 +1,16 @@
 @font-face {
+  font-family: "Sans";
+  src: url("../fonts/sans/Atkinson-Hyperlegible-Regular.woff2") format("woff2"),
+       url("../fonts/sans/Atkinson-Hyperlegible-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Sans Bold";
+  src: url("../fonts/sans/Atkinson-Hyperlegible-Bold.woff2") format("woff2"),
+       url("../fonts/sans/Atkinson-Hyperlegible-Bold.woff") format("woff");
+}
+
+@font-face {
   font-family: "Serif";
   src: url("../fonts/serif/regular.woff2") format("woff2"),
        url("../fonts/serif/regular.woff") format("woff");
@@ -63,7 +75,7 @@
 }
 
 body {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Sans', Helvetica, Arial, sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -103,7 +115,6 @@ p {
   max-width: 640px;
   line-height: var(--line-height-body);
   margin: var(--spacing-base) 0;
-
 }
 
 li {

@@ -159,12 +159,9 @@ iframe {
 }
 
 @media only screen and (max-width: 390px) {
-  .intro .group {
-    margin-top: calc(var(--spacing-xxlarge) * 3);
-  }
 
   .intro {
-    padding-bottom: calc(var(--spacing-xxlarge) * 1.5);
+    padding: calc(var(--spacing-xxlarge) * 1.5) 0;
   }
 
 }

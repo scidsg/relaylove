@@ -28,7 +28,6 @@
 }
 
 .banner {
-  padding: var(--spacing-xsmall) 0;
   text-align: center;
   position: fixed;
   top: 0;

@@ -59,7 +59,6 @@
   font-size: var(--font-size-small);
   width: max-content;
   text-decoration: none;
-  font-weight: bold;
   cursor: pointer;
   margin: var(--spacing-small) 0;
   text-transform: capitalize;

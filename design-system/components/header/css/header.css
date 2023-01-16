@@ -45,7 +45,6 @@ header .logo {
   line-height: var(--line-height-base);
   display: flex;
   width: fit-content;
-  font-weight: bold;
 }
 
 header a {

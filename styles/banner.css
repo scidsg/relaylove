@@ -1,15 +1,16 @@
 @media (prefers-color-scheme: light) {
   .banner {
     background-color: #019ec3 !important;
-    font-family: "IBM Sans";
+    font-family: 'IBM Sans';
   }
 
-  .banner p, .banner a {
+  .banner p,
+  .banner a {
     color: #fff !important;
   }
 
   .bannerBtn {
-    background-image: url('../images/banner/lm-icon-close.png');
+    background-image: url('../public/images/banner/lm-icon-close.png');
   }
 }
 
@@ -18,12 +19,13 @@
     background-color: #1f9ec3;
   }
 
-  .banner p, .banner a {
-    color: #FFFFFF !important;
+  .banner p,
+  .banner a {
+    color: #ffffff !important;
   }
 
   .bannerBtn {
-    background-image: url('../images/banner/lm-icon-close.png');
+    background-image: url('../public/images/banner/lm-icon-close.png');
   }
 }
 
@@ -92,7 +94,6 @@
   .banner.hidden + header ~ div .intro iframe {
     margin-top: 20px !important;
   }
-
 }
 
 @media only screen and (max-width: 480px) {
@@ -106,15 +107,14 @@
   }
 
   .banner {
-    padding-left: var(--spacing-base) ;
-    padding-right: var(--spacing-small) ;
+    padding-left: var(--spacing-base);
+    padding-right: var(--spacing-small);
   }
-
 }
 
 @media only screen and (max-width: 420px) {
   .banner p {
-    font-size: calc(var(--font-size-small) * .9);
+    font-size: calc(var(--font-size-small) * 0.9);
     margin: 0 auto 0 var(--spacing-base);
   }
 

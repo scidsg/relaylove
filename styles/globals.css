@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* TODO: Move those into css modules */
+@import url('reset.css');
+@import url('variables.css');
+@import url('base.css');
+@import url('buttons.css');
+@import url('typography.css');
+@import url('firefox.css');
+@import url('header.css');
+@import url('intro.css');
+@import url('content.css');
+@import url('banner.css');
+@import url('style.css');

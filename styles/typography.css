@@ -1,21 +1,10 @@
-
-
 @font-face {
   font-family: 'IBM Sans';
   font-style: normal;
   font-weight: 100;
   font-display: swap;
   src: local('IBM Sans'),
-    url(../fonts/sans/IBMPlexSansArabic-Thin.woff2) format('trueType');
-}
-
-@font-face {
-  font-family: 'IBM Sans';
-  font-style: normal;
-  font-weight: 200;
-  font-display: swap;
-  src: local('IBM Sans'),
-    url(../fonts/IBMPlexSansArabic-ExtraLight.woff2) format('trueType');
+    url(../assets/fonts/sans/IBMPlexSansArabic-Thin.woff2) format('trueType');
 }
 
 @font-face {
@@ -24,7 +13,7 @@
   font-weight: 300;
   font-display: swap;
   src: local('IBM Sans'),
-    url(../fonts/sans/IBMPlexSansArabic-Light.woff2) format('trueType');
+    url(../assets/fonts/sans/IBMPlexSansArabic-Light.woff2) format('trueType');
 }
 
 @font-face {
@@ -33,7 +22,7 @@
   font-weight: 400;
   font-display: swap;
   src: local('IBM Sans'),
-    url(../fonts/sans/IBMPlexSansArabic-Regular.woff2) format('trueType');
+    url(../assets/fonts/sans/IBMPlexSansArabic-Regular.woff2) format('trueType');
 }
 
 @font-face {
@@ -42,7 +31,7 @@
   font-weight: 500;
   font-display: swap;
   src: local('IBM Sans'),
-    url(../fonts/sans/IBMPlexSansArabic-Medium.woff2) format('trueType');
+    url(../assets/fonts/sans/IBMPlexSansArabic-Medium.woff2) format('trueType');
 }
 
 @font-face {
@@ -51,7 +40,8 @@
   font-weight: 600;
   font-display: swap;
   src: local('IBM Sans'),
-    url(../fonts/sans/IBMPlexSansArabic-SemiBold.woff2) format('trueType');
+    url(../assets/fonts/sans/IBMPlexSansArabic-SemiBold.woff2)
+      format('trueType');
 }
 
 @font-face {
@@ -60,12 +50,17 @@
   font-weight: 700;
   font-display: swap;
   src: local('IBM Sans'),
-    url(../fonts/sans/IBMPlexSansArabic-Bold.woff2) format('trueType');
+    url(../assets/fonts/sans/IBMPlexSansArabic-Bold.woff2) format('trueType');
 }
 
-
 @media (prefers-color-scheme: light) {
-  h1, h2, h3, h4, h5, h6, p {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
     color: var(--color-dark);
   }
 
@@ -93,7 +88,13 @@
     background-color: var(--color-dark);
   }
 
-  h1, h2, h3, h4, h5, h6, p {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
     color: var(--color-light);
   }
 
@@ -110,7 +111,7 @@
   }
 
   .code {
-    color: #EE72AC;
+    color: #ee72ac;
     background-color: var(--color-shade-dm);
     border: var(--border-light);
   }
@@ -120,7 +121,12 @@ body {
   font-family: Helvetica, Arial, sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: bold;
   line-height: var(--line-height-heading);
 }
@@ -135,17 +141,17 @@ h3 {
 }
 
 h4 {
-  font-size:  var(--font-size-3);
+  font-size: var(--font-size-3);
   margin: var(--spacing-xxlarge) 0 var(--spacing-small) 0;
 }
 
 h5 {
-  font-size:  var(--font-size-4);
+  font-size: var(--font-size-4);
   margin: var(--spacing-xlarge) 0 var(--spacing-small) 0;
 }
 
 h6 {
-  font-size:  var(--font-size-5);
+  font-size: var(--font-size-5);
   margin: var(--spacing-large) 0 var(--spacing-small) 0;
 }
 
@@ -160,12 +166,22 @@ p.meta {
   font-size: var(--font-size-xsmall);
 }
 
-h1 .emoji, h2 .emoji, h3 .emoji, h4 .emoji, h5 .emoji, h6 .emoji {
+h1 .emoji,
+h2 .emoji,
+h3 .emoji,
+h4 .emoji,
+h5 .emoji,
+h6 .emoji {
   display: block;
   margin-bottom: var(--spacing-small);
 }
 
-.center h1, .center h2, .center h3, .center h4, .center h5, .center h6 {
+.center h1,
+.center h2,
+.center h3,
+.center h4,
+.center h5,
+.center h6 {
   text-align: center;
 }
 
@@ -179,61 +195,57 @@ h1 .emoji, h2 .emoji, h3 .emoji, h4 .emoji, h5 .emoji, h6 .emoji {
 
 @media only screen and (max-width: 1440px) {
   h2 {
-    font-size: calc(var(--font-size-1) * .9);
+    font-size: calc(var(--font-size-1) * 0.9);
   }
 
   h3 {
-    font-size: calc(var(--font-size-2) * .9);
+    font-size: calc(var(--font-size-2) * 0.9);
     margin: var(--spacing-xxlarge) 0 var(--spacing-base) 0;
   }
 
   h4 {
-    font-size: calc(var(--font-size-3) * .9);
-    margin: calc(var(--spacing-xxlarge) * .9) 0 var(--spacing-small) 0;
+    font-size: calc(var(--font-size-3) * 0.9);
+    margin: calc(var(--spacing-xxlarge) * 0.9) 0 var(--spacing-small) 0;
   }
 
   h5 {
-    font-size: calc(var(--font-size-4) * .9);
+    font-size: calc(var(--font-size-4) * 0.9);
   }
 
   h6 {
-    font-size: calc(var(--font-size-5) * .9);
+    font-size: calc(var(--font-size-5) * 0.9);
   }
-
 }
 
 @media only screen and (max-width: 1024px) {
 }
 
 @media only screen and (max-width: 768px) {
-
   h2 {
-    font-size: calc(var(--font-size-1) * .8);
+    font-size: calc(var(--font-size-1) * 0.8);
   }
 
   h3 {
-    font-size: calc(var(--font-size-2) * .8);
+    font-size: calc(var(--font-size-2) * 0.8);
     margin: var(--spacing-xxlarge) 0 var(--spacing-base) 0;
   }
 
   h4 {
-    font-size: calc(var(--font-size-3) * .8);
-    margin: calc(var(--spacing-xxlarge) * .8) 0 var(--spacing-small) 0;
+    font-size: calc(var(--font-size-3) * 0.8);
+    margin: calc(var(--spacing-xxlarge) * 0.8) 0 var(--spacing-small) 0;
   }
 
   h5 {
-    font-size: calc(var(--font-size-4) * .8);
+    font-size: calc(var(--font-size-4) * 0.8);
   }
 
   h6 {
-    font-size: calc(var(--font-size-5) * .8);
+    font-size: calc(var(--font-size-5) * 0.8);
   }
-
 }
 
 @media only screen and (max-width: 480px) {
-
   h2 {
-    font-size: calc(var(--font-size-1) * .6);
+    font-size: calc(var(--font-size-1) * 0.6);
   }
 }

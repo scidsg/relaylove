@@ -1,0 +1,13 @@
+.headingOne{
+    @apply col-start-13 col-end-10 text-right text-3xl sm:text-5xl md:text-6xl;
+
+    /* applying BOLD to font */
+    font-family: 'IBM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local('IBM Sans'),
+    url(../assets/fonts/sans/IBMPlexSansArabic-Bold.woff2) format('trueType');
+
+    color: #FFFDED;
+}

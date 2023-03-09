@@ -1,0 +1,20 @@
+/* for making grids in containers */
+.gridA{
+    @apply grid grid-cols-1 md:grid-cols-12;
+    @apply m-3 sm:m-5 md:m-12 md:mt-5;
+}
+.gridB{
+    @apply grid grid-cols-3;
+}
+
+/* for fitting children in grids */
+.grid-13-10{
+    @apply col-start-13 col-end-10;
+}
+
+.grid-1-2{
+    @apply col-start-1 col-end-2;
+}
+.grid-2-3{
+    @apply col-start-2 col-end-3;
+}

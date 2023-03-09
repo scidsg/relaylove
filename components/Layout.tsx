@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import { ReactNode } from 'react';
+import Top from './Top';
 
 type LayoutProps = {
   readonly children: ReactNode;
@@ -21,7 +22,8 @@ const Layout = ({ children }: LayoutProps) => {
           href="assets/images/favicon/favicon.ico"
         />
       </Head>
-      <div>{children}</div>
+
+      <Top></Top>
     </>
   );
 };

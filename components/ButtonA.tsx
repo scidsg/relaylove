@@ -21,7 +21,7 @@ const ButtonA = () => {
 
     </div> */}
 
-    <button className="bg-darkPurple py-2 px-4 rounded-xl inline-flex items-center  hover:bg-lightPurple hover:border-2 border-white transition duration-50 mb-2">
+    <button className="bg-darkPurple py-2 px-4 rounded-xl inline-flex items-center  hover:bg-lightPurple hover:border-2 border-white  mb-2">
 
         <span>انسخ المشروع</span>
 

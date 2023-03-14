@@ -1,9 +1,15 @@
 /* for making grids in containers */
-.gridA{
+.gridTwelve{
     @apply grid grid-cols-1 md:grid-cols-12;
-    @apply m-3 sm:m-5 md:m-12 md:mt-5;
+    @apply m-7 sm:m-7 md:m-20 md:mt-5;
 }
-.gridB{
+.gridTwelve_Dark{
+    @apply grid grid-cols-1 md:grid-cols-12;
+    @apply m-7 sm:m-7 md:m-20 md:mt-5;
+    @apply bg-darkPurple
+}
+
+.gridThree{
     @apply grid grid-cols-3;
 }
 

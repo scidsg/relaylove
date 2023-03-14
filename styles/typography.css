@@ -159,6 +159,11 @@ p {
   max-width: 640px;
   line-height: var(--line-height-base);
   margin: var(--spacing-base) 0;
+
+  font-size: 1.2rem;
+  direction: rtl;
+  font-weight: 200;
+  line-height: 1.7;
 }
 
 p.meta {

@@ -1,0 +1,32 @@
+.List{
+    @apply text-right mt-6 list-disc pr-7;
+
+    /* applying Medium to font */
+   font-family: 'IBM Sans';
+   font-size: 2rem;
+   direction: rtl;
+   font-style: normal;
+   font-weight: 300;
+   font-display: swap;
+   src: local('IBM Sans'),
+   url(../assets/fonts/sans/IBMPlexSansArabic-Bold.woff2) format('trueType');
+
+   color: #FFFDED !important;
+
+}
+
+.Items{
+    @apply text-right list-disc pr-7 text-2xl sm:text-3xl;
+
+    /* applying light to font */
+   font-family: 'IBM Sans';
+   direction: rtl;
+   font-style: normal;
+   font-weight: 200;
+   font-display: swap;
+   src: local('IBM Sans'),
+   url(../assets/fonts/sans/IBMPlexSansArabic-Bold.woff2) format('trueType');
+
+   color: #FFFDED !important;
+
+}

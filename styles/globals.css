@@ -14,3 +14,7 @@
 @import url('content.css');
 @import url('banner.css');
 @import url('style.css');
+
+body{
+    background-color: #201335;
+}

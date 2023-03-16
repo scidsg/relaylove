@@ -34,7 +34,7 @@ const Layout = ({ children }: LayoutProps) => {
         <div className={grid.gridTwelve}>
         <Snowflake></Snowflake>
 
-        <div className="md:col-end-8 md:col-start-5 md:row-start-1 mt-5">
+        <div className="p-16 md:p-0 md:col-end-8 md:col-start-5 md:row-start-1 mt-5 md:pr-6 lg:p-0">
           <h2 className={heading.headingTwo}>شارك حرية الانترنت</h2>
           <ul className={list.List}>
             <li className={list.Items}>اضغط الزر</li>
@@ -43,7 +43,7 @@ const Layout = ({ children }: LayoutProps) => {
           </ul>
         </div>
 
-        <div className="md:col-end-4 md:col-start-1 md:row-start-1 mt-5">
+        <div className="p-16 md:p-0 text-right w-full md:col-start-13 md:col-end-1 md:mr-0 md:row-start-2 lg:col-end-4 lg:col-start-1 lg:row-start-1 mt-5">
           <p className='fontSize-5xl'>
           يمكنك مساعدة الأشخاص على تجاوز الرقابة من خلال تمكين وكيل سنوفليك على يمينك. بمجرد أن تتحول أيقونة ندفة الثلج إلى اللون الأخضر، فهذا يعني أن المستخدم في بلد خاضع للرقابة يتصل من خلال وكيلك للوصول إلى الإنترنت دون قيود.
           </p>

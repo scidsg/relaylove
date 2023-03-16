@@ -21,6 +21,11 @@ module.exports = {
         '4xl': '2.441rem',
         '5xl': '3.052rem',
       },
+
+      screens: {
+        'midway': '768',
+      
+      },
     },
   },
   plugins: [],

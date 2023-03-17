@@ -5,6 +5,7 @@ import Snowflake from './Snowflake';
 import grid from '@/styles/grid.module.css';
 import heading from '@/styles/headings.module.css';
 import list from '@/styles/List.module.css';
+import Link from 'next/link'
 
 
 
@@ -49,13 +50,13 @@ const Layout = ({ children }: LayoutProps) => {
           </p>
           <br></br>
 
-          <p>هذا المشروع مستضاف من قبل جوسا عن طريق مشروع تور</p>
+          <p>هذا المشروع مستضاف من قبل <Link className='underline' href="https://josa.ngo/">جوسا</Link> عن طريق <Link className='underline' href="https://www.torproject.org/">مشروع تور</Link></p>
         </div>
 
         </div>
       </div>
       
-      
+    
     </>
   );
 };

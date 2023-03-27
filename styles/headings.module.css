@@ -22,6 +22,7 @@
    font-display: swap;
    src: local('IBM Sans'),
    url(../assets/fonts/sans/IBMPlexSansArabic-Bold.woff2) format('trueType');
+   margin: 0rem 0rem 2rem 0;
 
    color: #FFFDED !important;
 }

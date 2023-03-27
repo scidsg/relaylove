@@ -156,7 +156,7 @@ h6 {
 }
 
 p {
-  max-width: 640px;
+  /* max-width: 640px; */
   line-height: var(--line-height-base);
   margin: var(--spacing-base) 0;
 
